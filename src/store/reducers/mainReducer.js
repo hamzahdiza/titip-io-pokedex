@@ -4,8 +4,13 @@ const initialState = {
   isLoading: true,
   pokemons: [],
   errorMsg: "",
+  page: 0,
+  maxNumOfPagesStore: 0,
 
   pokemonDetail: {},
+  moves: {},
+  evoChain: {},
+  numOfPokemons: {},
 };
 
 const mainReducer = (state = initialState, action) => {
@@ -19,6 +24,7 @@ const mainReducer = (state = initialState, action) => {
         ...state,
         isLoading: false,
         pokemons: action.payload,
+        maxNumOfPagesStore: action.maxNumOfPages,
       };
     case POKEMONS_FETCH_REJECT:
       return {
@@ -35,7 +41,10 @@ const mainReducer = (state = initialState, action) => {
       return {
         ...state,
         isLoading: false,
-        pokemonDetail: action.payload,
+        pokemonDetail: action.pokemon,
+        moves: action.moves,
+        evoChain: action.evoChain,
+        numOfPokemons: action.numOfPokemons,
       };
     case DETAILS_FETCH_REJECT:
       return {

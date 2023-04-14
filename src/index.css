@@ -50,3 +50,89 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.fire {
+  background-color: #fd7d24;
+}
+
+.flying {
+  background: rgb(0, 212, 255);
+  background: linear-gradient(180deg, rgba(0, 212, 255, 1) 40%, rgba(195, 195, 195, 1) 60%);
+}
+.electric {
+  background-color: #eed535;
+}
+.grass {
+  background-color: #57ba7d;
+}
+.water {
+  background-color: #4592c4;
+}
+.psychic {
+  background-color: #f366b9;
+}
+.fighting {
+  background-color: #d56723;
+}
+.bug {
+  background-color: #b05cfa;
+}
+.normal {
+  background-color: #959396;
+}
+.dragon {
+  background: rgb(255, 197, 99);
+  background: linear-gradient(180deg, rgba(255, 197, 99, 1) 40%, rgba(240, 134, 83, 1) 60%);
+}
+.fairy {
+  background-color: #fdb9e9;
+}
+.rock {
+  background-color: #948c5c;
+}
+.ground {
+  background: rgb(126, 57, 57);
+  background: linear-gradient(180deg, rgba(99, 175, 200, 1) 40%, rgba(126, 57, 57, 1) 60%);
+}
+.steel {
+  background-color: #9eb7b8;
+}
+.ice {
+  background-color: #51c4e7;
+}
+.ghost {
+  background-color: #7b62a3;
+}
+.dark {
+  background-color: #332f2f;
+}
+.poison {
+  background-color: #b97fc9;
+}
+
+/* For Chrome or Safari */
+progress::-webkit-progress-bar {
+  background-color: #b1b1b1;
+}
+
+progress::-webkit-progress-value {
+  background-color: #2ec22e !important;
+}
+
+/* For Firefox */
+progress {
+  background-color: #b1b1b1;
+}
+
+progress::-moz-progress-bar {
+  background-color: #2ec22e !important;
+}
+
+/* For IE10 */
+progress {
+  background-color: #b1b1b1;
+}
+
+progress {
+  background-color: #039603;
+}

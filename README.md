@@ -2,9 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## [DEMO APP](https://pokedex-dz.web.app/)
+
+## Web and Mobile version:
+
+
 ## Available Scripts
 
 In the project directory, you can run:
+![af1](https://user-images.githubusercontent.com/76916527/231923032-7afe645d-77d1-4656-a55c-b58806207aea.png)
+![af2](https://user-images.githubusercontent.com/76916527/231923062-302cf0ea-c1d1-4d04-801d-c8d592bb3e39.png)
+![af3](https://user-images.githubusercontent.com/76916527/231923075-5a47c663-6496-4d75-ad8a-a2784eb6988f.png)
+![af4](https://user-images.githubusercontent.com/76916527/231923078-1effe322-ed29-4413-99af-baab6e3c7e3a.png)
+
 
 ### `npm start`
 
